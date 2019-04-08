@@ -1,4 +1,4 @@
-## Envato Tuts+ Course: Landing Page Design: From Figma to HTML and CSS
+## Envato Tuts+ Course: Figma to HTML: Code up a Single Page Design
 ### Instructor: [Kezz Bracey](https://tutsplus.com/authors/kezz-bracey)
 
 In this course we’ll take a one page design for a travel website in Figma and go through the process of converting it into HTML.
