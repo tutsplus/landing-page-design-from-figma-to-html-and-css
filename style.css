@@ -1,0 +1,322 @@
+:root {
+    --background_color_one: #fff;
+    --background_color_two: #F2F4F6;
+
+    --border_color: #D6E3F0;
+
+    --highlight_color: #38A4DC;
+
+    --text_color_one: #5C6163;
+    --text_color_two: #24282A;
+    --text_color_three: #939FA4;
+    --text_color_four: #A7B0B4;
+    --text_color_five: #F799A6;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background_color_two);
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--highlight_color);
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 90rem;
+    margin: 0 auto;
+    background-color: var(--background_color_one);
+    min-height: 10rem;
+    border-left: 1px solid var(--border_color);
+    border-right: 1px solid var(--border_color);
+    box-sizing: border-box;
+}
+
+.inner {
+    width: 100%;
+    max-width: 73.125rem;
+    margin: 0 auto;
+    height: inherit;
+}
+
+.inner_padding {
+    padding: 6.875rem 0;
+}
+
+.inner h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 0 5.625rem 0;
+    font-weight: 300;
+    color: var(--text_color_three);
+}
+
+.best_offers .inner h1 {
+    text-align: left;
+    margin: 0 0 5rem 0;
+}
+
+.inner h1 strong {
+    color: var(--text_color_two);
+    font-weight: 700;
+}
+
+.top_header {
+    background-color: var(--background_color_two);
+    min-height: 3.125rem;
+}
+
+.popular_destinations {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.75rem;
+    line-height: 3.125rem;
+}
+
+.popular_destinations a {
+    font-weight: 500;
+    margin-left: 1.875rem;
+}
+
+.popular_destinations div {
+    color: var(--text_color_one);
+}
+
+.header {
+    height: 6.25rem;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--text_color_three);
+}
+
+.logo span {
+    font-weight: 700;
+    color: var(--text_color_two);
+}
+
+.page_menu a {
+    color: var(--text_color_one);
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding: 0.625rem;
+    margin: 0.9375rem;
+}
+
+.page_menu a.active, .page_menu a:hover {
+    background: var(--highlight_color);
+    color: var(--background_color_one);
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.phone_number {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--highlight_color);
+    line-height: 1.5rem;
+    display: flex;
+    align-content: center;
+}
+
+.phone_number span {
+    margin-left: 0.5rem;
+}
+
+.hero_header {
+    height: 43.75rem;
+    background-image: url("images/heroimage.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.hero_header_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subheadline {
+	color: var(--background_color_one);
+	font-size: 1.25rem;
+	margin-bottom: 3.75rem;
+}
+
+a.button {
+    background: linear-gradient(199.55deg, #FDD6BD 0%, #F794A4 100%);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    color: var(--background_color_one);
+    font-weight: 500;
+    padding: 0 2.5rem;
+    line-height: 3.75rem;
+    display: inline-block;
+}
+
+.tour_categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.875rem 1.875rem;
+}
+
+.tour_categories > div {
+    position: relative;
+}
+
+.rome {
+    grid-column: 1 / span 2;
+}
+
+.tour_overlay {
+    position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 1.875rem;
+}
+
+a.button_two {
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background: var(--highlight_color);
+    color: var(--background_color_one);
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding: 0.625rem;
+    margin-bottom: 1rem;
+    display: inline-block;    
+}
+
+.tour_text {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--background_color_one);
+}
+
+.best_offers {
+    min-height: 20rem;
+    background-color: var(--background_color_two);
+}
+
+.best_offers_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.best_offer_row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 1.25rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    align-items: center;
+    font-size: 0.875rem;
+    color: var(--text_color_four);
+}
+
+.best_offer_row strong {
+    color: var(--text_color_two);
+    font-size: 1rem;
+}
+
+.best_offer_row img {
+    margin-left: -2.5rem;
+}
+
+.best_offer_row:nth-child(even){
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: var(--background_color_one);
+}
+
+.best_offer_row:nth-child(even) img {
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.blog {
+    text-align: center;
+}
+
+.blog_posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0.625rem;
+}
+
+.blog_posts > div {
+    margin-top: 1.25rem;
+}
+
+.blog_posts img {
+	display: block;
+	margin: -1.25rem auto 0 auto;
+}
+
+.blog_posts > div:nth-child(even) {
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+.blog_posts > div:nth-child(even) img {
+	box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.3);
+}
+
+.blog_post_teaser {
+	margin: 2.5rem;
+	text-align: left;
+}
+
+.blog_posts h1 {
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-top: 1.875rem;
+	margin-bottom: 0.625rem;
+	color: var(--text_color_two);
+	text-align: left;
+}
+
+.blog_posts p {
+	color: var(--text_color_four);
+}
+
+.blog_posts a {
+	color: var(--text_color_five);
+	font-weight: 500;
+}
+
+.blog .button {
+    margin-top: 5.625rem;
+    margin-bottom: 1.875rem;
+}
+
+.footer {
+    background-color: var(--background_color_two);
+}
+
+.footer_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.375rem 0;
+}
