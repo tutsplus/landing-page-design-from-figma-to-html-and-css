@@ -9,5 +9,7 @@ This course is perfect for anyone who’s found a landing page design on Envato 
 
 -   [Figma to HTML: Code Up a Single-Page Design](https://webdesign.tutsplus.com/courses/figma-to-html-code-up-a-single-page-design)
 
+-   [https://www.digitalocean.com/community/tutorials/react-beautiful-uis-ant-design](https://www.digitalocean.com/community/tutorials/react-beautiful-uis-ant-design)
+
 -   [Introduction to Figma](https://webdesign.tutsplus.com/courses/search/Introduction+To+Figma)
 
